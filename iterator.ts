@@ -1,3 +1,5 @@
+// Iterator: An iterator is an object that implements a next() method which returns two values: value and done (boolean). next() can be called repeatedly until done is true.
+
 class NumberIterator implements Iterator<number> {
     private current = 0;
     private max: number;
